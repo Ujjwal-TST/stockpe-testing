@@ -1,0 +1,364 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;1000&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+@import url("font.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .drawer-body {
+    background: #121212 !important;
+  }
+
+  .navbar-shadow {
+    content: "";
+    position: relative;
+    top: 0px;
+    border-bottom: solid transparent;
+    border-image: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.2) 52.6%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-image-slice: 1;
+  }
+
+  .menu-border {
+    border-bottom: 1px solid rgba(251, 255, 255, 0.2);
+  }
+
+  .delete-bg {
+    background-image: url("../assets/images/texture.png");
+    background-color: #121212;
+  }
+
+  .privacypolicy {
+    padding-top: 50px !important;
+    padding-bottom: 0 !important;
+    background-size: contain;
+    background-repeat: revert;
+  }
+  .privacypolicy p {
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #979797;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .privacypolicy p.subheading {
+    font-weight: 600;
+    font-size: 18px !important;
+  }
+  .privacypolicy h2 {
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  .inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-modal-content {
+  background: #1f1f1f !important;
+  padding: 0 !important;
+}
+
+.ant-card-body {
+  padding: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff616 !important;
+  opacity: 0.3 !important;
+
+  transition: 0.5s !important;
+  margin: -10px 0px;
+
+  @media (max-width: 768px) {
+    width: 7px !important;
+    height: 7px !important ;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff616 !important;
+  opacity: 1 !important;
+  border-radius: 24px !important;
+  transition: 0.7s !important;
+
+  @media (max-width: 768px) {
+    width: 30px !important;
+  }
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 280px !important;
+  left: -10px !important;
+}
+
+.swiper-container {
+  position: relative !important;
+}
+
+.swiper-gradient {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 70px !important; /* Adjust the width of the gradient overlay as needed */
+  z-index: 1 !important;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .swiper-gradient {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 20px !important; /* Adjust the width of the gradient overlay as needed */
+    z-index: 1 !important;
+  }
+}
+@media (min-width: 401px) and (max-width: 766px) {
+  .swiper-gradient {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 22px !important; /* Adjust the width of the gradient overlay as needed */
+    z-index: 1 !important;
+  }
+}
+
+.swiper-gradient-left {
+  left: 0 !important;
+  background: linear-gradient(
+    270deg,
+    rgba(18, 18, 18, 0) 0%,
+    #121212 104.17%
+  ) !important;
+}
+
+.swiper-gradient-right {
+  right: 0 !important;
+  background: linear-gradient(270deg, #121212 0%, rgba(18, 18, 18, 0) 104.17%);
+}
+
+/* Simmer Effect */
+.light {
+  background: linear-gradient(
+    -90deg,
+    #fff616 0%,
+    #fff616 40%,
+    #ffffff 50%,
+    #fff616 60%,
+    #fff616 100%
+  );
+
+  background-position: -600px;
+  background-size: 300%;
+  animation: light 3s linear 0s infinite normal;
+  -webkit-animation: light 3s linear 0s infinite normal;
+}
+
+@keyframes light {
+  0% {
+    background-position: -800px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
+
+@-webkit-keyframes light {
+  0% {
+    background-position: -600px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
+
+/* Mobile Button Animation */
+.mobile-button-animation {
+  width: 100%;
+  animation: expand 1s linear 0.25s; /* Specify the animation name and duration */
+}
+.contact-button-animation {
+  width: 100%;
+  animation: expand 1.3s linear 2.25s; /* Specify the animation name and duration */
+}
+
+@keyframes expand {
+  0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Navbar Animation */
+.animation {
+  position: relative;
+  animation: myfirst 1.5s linear 0.3s 1 alternate-reverse;
+}
+
+@keyframes myfirst {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 0px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 0px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+/* Support Page Animation */
+.support-animation {
+  position: relative;
+  animation: homepage 3s linear 0.3s 1 alternate-reverse;
+}
+/* Home Page Animation */
+.homepage-animation {
+  position: relative;
+  animation: homepage 4s linear 0.3s 1 alternate-reverse;
+}
+
+@keyframes homepage {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 0px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 0px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+
+.homepage-img-animation {
+  position: relative;
+  animation: homepageImg 3.5s linear 0.3s 1 alternate-reverse;
+}
+
+@keyframes homepageImg {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 0px;
+  }
+  50% {
+    left: 0px;
+  }
+  75% {
+    left: 0px;
+  }
+  100% {
+    left: 180px;
+  }
+}
+
+/* Footer Animation */
+.footer-animation {
+  position: relative;
+  animation: footer 0.5s linear 0.1s 1 alternate-reverse;
+}
+
+@keyframes footer {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 0px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 0px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+/* Desktop Button Animation */
+
+.mv-arrow {
+  /* margin-left: -4px; */
+  transition: margin-left 0.3s ease;
+}
+.click-arrow {
+  /* margin-left: 0px; */
+  transition: margin-left 0.2s ease;
+}
+
+button:hover .mv-arrow {
+  /* position: relative; */
+  margin-left: 5px;
+  /* transition: margin-left 1s ease; */
+  /* opacity: 0.7; */
+}
+
+button:active .click-arrow {
+  /* position: relative;
+  left: 10px;
+  transition: margin-left 0.3s ease; */
+  margin-left: 10px;
+  /* opacity: 0.7; */
+}
+
+.ant-input::placeholder {
+  color: #fbffff;
+  opacity: 0.6;
+  font-weight: 300;
+}
+.ant-input:hover,
+.ant-input:focus {
+  border-color: initial; /* or transparent or the color you desire */
+  box-shadow: none; /* Optional: Remove any box shadow on hover/focus */
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  background-color: green; /* or transparent or the color you desire */
+  border-color: none; /* or transparent or the color you desire */
+  color: #121212; /* or the color you desire */
+}
+
+@import "bootstrap/dist/css/bootstrap.css";

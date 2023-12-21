@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300.47 300.47" style="enable-background:new 0 0 300.47 300.47;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#232222;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_00000167396438554264142520000010986089716641874108_);}
+	.st4{fill:url(#SVGID_00000156575195801216222810000014578908371347464368_);}
+	.st5{fill:url(#SVGID_00000033358690616050902610000004957468915194879649_);}
+	.st6{fill:url(#SVGID_00000003800264077404645040000013396006492096996482_);}
+	.st7{fill:url(#SVGID_00000109722967307206424920000011284247077196441222_);}
+</style>
+<g>
+	<radialGradient id="SVGID_1_" cx="37.8825" cy="235.8158" r="270.8105" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#D89E2B"/>
+		<stop  offset="0.9955" style="stop-color:#FFD37F"/>
+	</radialGradient>
+	<path class="st2" d="M69.87,201.52l1.28,0.74l76.11-43.93c1.13-0.65,1.13-2.28,0-2.93l-8.48-4.89l-27.32-15.76
+		c-1.13-0.65-1.13-2.28,0-2.93l9.38-5.43l78.64-45.4l-45.01-25.99c-2.62-1.51-5.84-1.51-8.46,0L69.87,98.95
+		c-2.62,1.51-4.23,4.31-4.23,7.33v87.91C65.64,197.22,67.25,200.01,69.87,201.52z"/>
+	
+		<radialGradient id="SVGID_00000108310427805899342140000005290095841397833639_" cx="37.8825" cy="235.8158" r="270.8105" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#D89E2B"/>
+		<stop  offset="0.9955" style="stop-color:#FFD37F"/>
+	</radialGradient>
+	<path style="fill:url(#SVGID_00000108310427805899342140000005290095841397833639_);" d="M230.6,98.95l-1.27-0.73l-76.09,43.92
+		c-1.13,0.65-1.13,2.28,0,2.93l8.48,4.89l27.32,15.79c1.13,0.65,1.13,2.28,0,2.93l-9.37,5.4L101,219.5l45,25.98
+		c2.62,1.51,5.85,1.51,8.46,0l76.14-43.96c2.62-1.51,4.23-4.31,4.23-7.33v-87.91C234.84,103.25,233.22,100.46,230.6,98.95z"/>
+</g>
+</svg>
