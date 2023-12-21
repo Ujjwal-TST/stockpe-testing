@@ -9,7 +9,6 @@ import Footer from './page/app/Footer'
 import { Route, Routes } from 'react-router-dom'
 import PrivacyPolicy from './page/app/privacy-policy'
 import DeleteAccount from './page/app/DeleteAccount'
-import { Result } from 'antd'
 
 const App = () => {
   useEffect(() => {
